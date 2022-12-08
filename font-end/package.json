@@ -1,0 +1,23 @@
+{
+  "name": "pizzaria-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sanity/client": "^3.4.1",
+    "next": "13.0.6",
+    "next-sanity-image": "^5.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "sass": "^1.56.1"
+  }
+}
