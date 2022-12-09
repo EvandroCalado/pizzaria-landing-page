@@ -1,6 +1,6 @@
 export default {
-  name: 'cardapio',
-  title: 'Cardapio',
+  name: 'reviews',
+  title: 'Reviews',
   type: 'document',
   fields: [
     {
@@ -14,13 +14,13 @@ export default {
       type: 'string',
     },
     {
-      name: 'category',
-      title: 'Category',
+      name: 'name',
+      title: 'Name',
       type: 'string',
     },
     {
-      name: 'title',
-      title: 'Title',
+      name: 'review',
+      title: 'Review',
       type: 'string',
     },
   ],

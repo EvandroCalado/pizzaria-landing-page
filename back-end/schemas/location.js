@@ -1,6 +1,6 @@
 export default {
-  name: 'about',
-  title: 'About',
+  name: 'location',
+  title: 'Location',
   type: 'document',
   fields: [
     {
@@ -26,6 +26,16 @@ export default {
     {
       name: 'text',
       title: 'Text',
+      type: 'string',
+    },
+    {
+      name: 'email',
+      title: 'Email',
+      type: 'string',
+    },
+    {
+      name: 'number',
+      title: 'Number',
       type: 'string',
     },
     {
