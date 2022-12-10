@@ -14,7 +14,7 @@ const Reviews = ({ reviews }) => {
   });
 
   return (
-    <section className={styles.reviews}>
+    <section className={styles.reviews} id="reviews">
       <div className={styles.heading}>
         <span>Depoimentos</span>
         <h2>Dos nossos clientes</h2>

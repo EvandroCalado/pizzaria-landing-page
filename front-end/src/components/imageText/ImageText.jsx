@@ -1,10 +1,10 @@
 import styles from "./ImageText.module.scss";
 
-const ImageText = ({ data }) => {
+const ImageText = ({ data, id }) => {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id={id}>
       <div className={styles.image}>
-        <img src={data.image_url} alt="About" />
+        {data.image_url && <img src={data.image_url} alt="About" />}
       </div>
       <div className={styles.content}>
         <span>{data.top_title}</span>

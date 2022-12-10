@@ -3,7 +3,11 @@
 
 .benefits {
   @include max-width;
-  margin-bottom: $marginBottom;
+  margin-bottom: $marginBottomMobile;
+
+  @include devices(mobile) {
+    margin-bottom: $marginBottom;
+  }
 
   .top {
     display: flex;
@@ -13,5 +17,12 @@
   .bottom {
     display: flex;
     justify-content: center;
+  }
+
+  .top, .bottom {
+    @include devices(tablet) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }

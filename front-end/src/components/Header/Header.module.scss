@@ -1,10 +1,15 @@
 @import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
 
 .header {
   min-height: 59rem;
   background: linear-gradient($gradient1, $gradient2);
   position: relative;
   margin-bottom: $marginBottom;
+
+  @include devices(mobile) {
+    margin-bottom: $marginBottomMobile;
+  }
 
   .content {
     position: absolute;
@@ -29,5 +34,9 @@
     width: 80%;
     max-width: 58rem;
     height: 28rem;
+
+    img {
+      width: 100%;
+    }
   }
 }

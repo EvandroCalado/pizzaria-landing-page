@@ -4,6 +4,7 @@
 .menu-wrapper {
   background-color: $background;
   padding: 6rem 0;
+  scroll-margin-top: 15rem;
 
   .menu {
     @include max-width;

@@ -1,15 +1,14 @@
 import styles from "./Item.module.scss";
 
-const Item = () => {
+const Item = ({ recipe, ingredients, price }) => {
   return (
     <li className={styles.item}>
       <div className={styles.content}>
-        <h3>A Receita</h3>
-        <h4>integrante 1, integrante 2</h4>
+        <h3>{recipe}</h3>
+        <h4>{ingredients}</h4>
       </div>
-      <div className={styles.divisor}>
-        <h5>R$59,90</h5>
-      </div>
+      <div className={styles.divisor}></div>
+      <h5>R${price}</h5>
     </li>
   );
 };
