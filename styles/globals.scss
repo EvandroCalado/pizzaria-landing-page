@@ -65,6 +65,10 @@ p,
   line-height: 3rem;
 }
 
+a {
+  cursor: pointer;
+}
+
 .btn {
   border: none;
   outline: none;
@@ -72,13 +76,14 @@ p,
   border-radius: 0.5rem;
   text-decoration: none;
   display: inline-block;
+  transition: 0.3s ease-in-out;
 
   &.btn-primary {
     background-color: $button;
     color: $white;
 
     &:hover {
-      background-color: lighten($button, 3);
+      background-color: lighten($button, 8);
     }
   }
 }
