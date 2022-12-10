@@ -1,19 +1,27 @@
 import styles from "./NavLinks.module.scss";
 
-const NavLinks = () => {
+const NavLinks = ({ toggleMenu }) => {
   return (
     <ul className={styles.list}>
       <li>
-        <a href="#about">Sobre nós</a>
+        <a href="#about" onClick={toggleMenu}>
+          Sobre nós
+        </a>
       </li>
       <li>
-        <a href="#reviews">Depoimentos</a>
+        <a href="#reviews" onClick={toggleMenu}>
+          Depoimentos
+        </a>
       </li>
       <li>
-        <a href="#location">Localização</a>
+        <a href="#location" onClick={toggleMenu}>
+          Localização
+        </a>
       </li>
       <li>
-        <a href="#menu">Menu</a>
+        <a href="#menu" onClick={toggleMenu}>
+          Menu
+        </a>
       </li>
     </ul>
   );
