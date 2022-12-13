@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
     "next": "13.0.6",
@@ -19,9 +19,6 @@
     "react-icons": "^4.7.1"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.20.2",
-    "eslint": "^8.29.0",
-    "eslint-config-google": "^0.14.0",
-    "sass": "^1.56.1"
+    "sass": "^1.56.2"
   }
 }
